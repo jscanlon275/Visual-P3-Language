@@ -19,7 +19,7 @@ subs = { '001' '002' '003' '004'  };%
 nsubs = length(subs);
 conds = {'Video'};
 nconds = length(conds);
-Pathname = 'M:\Data\Visual P3 Language\';
+Pathname = 'M:\Data\Visual P3 Language\'; 
 
 if ~exist([Pathname 'segments\'])
     mkdir([Pathname 'segments\']);
